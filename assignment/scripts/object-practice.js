@@ -24,7 +24,13 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+// let fullName = me.firstName + me.lastName; 
 
+function fullName(){
+  return me.firstName + " " + me.lastName;
+} 
+
+console.log('My name is', fullName(me));
 
 
 /* 3. Nested arrays
