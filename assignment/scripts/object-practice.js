@@ -25,23 +25,24 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-function fullName(){
-  return me.firstName + " " + me.lastName;
-} 
 
-console.log('My name is', fullName(me));
+let fullName = me.firstName + ' ' + me.lastName;
+ 
+
+console.log('My name is', fullName);
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-function favFoodList(){
-  let foodArray = me.favThreeFoods;
-  return foodArray;
-}
 
-console.log('First and last favorite foods:', favFoodList(me));
+
+let favFood = me.favThreeFoods;
+
+console.log('List of favorite foods: ', favFood);
+console.log('First of my favorite foods:', favFood.shift());
+console.log('Last of my favorite foods', favFood.pop());
 
 
 /* 4. Change a property of an existing object.
