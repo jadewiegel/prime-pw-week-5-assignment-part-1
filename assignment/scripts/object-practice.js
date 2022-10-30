@@ -40,6 +40,7 @@ console.log('My name is', fullName);
 
 let favFood = me.favThreeFoods;
 
+
 console.log('List of favorite foods: ', favFood);
 console.log('First of my favorite foods:', favFood.shift());
 console.log('Last of my favorite foods', favFood.pop());
@@ -61,3 +62,6 @@ console.log('I just purchased another pair of shoes!! Now my shoe count is: ', m
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favColor = 'blue';
+console.log('Adding favorite color to list: ', me);
